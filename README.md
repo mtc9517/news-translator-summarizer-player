@@ -1,5 +1,15 @@
 # news-translator-summarizer-player
-A simplistic news service that extracts news from a foreign news portal (in a foreign language), translates to english, summarizes the content and then speaks out the summary at a given time of day after doing a sentiment analysis on it. It then stores the summarized news article categorized based on sentiment (positive, negative or neutral) for later viewing (where the user can choose the sentiment of the news they want to view - refer to the screen shot below Step 5). 
+A simplistic news service that extracts news from a foreign news portal (in a foreign language), translates to english, summarizes the content and then speaks out the summary at a given time of day after doing a sentiment analysis on it. It then stores the summarized news article categorized based on sentiment (positive, negative or neutral) for later viewing (where the user can choose the sentiment of the news they want to view - refer to the screen shot below Step 5).
+
+Prerequisites
+
+    (a) Make sure you have a virtual python environment with python 3.9
+        % conda create -n <news_player_env> python=3.9
+        
+    (b) Activate the new virtual environment and install the needed packages
+        % conda activate <news_player_env>
+        % pip install -r requirements.txt
+    
 
 Step 1 :
     Create a cognitive service instance and a language resource instance in the azure portal
