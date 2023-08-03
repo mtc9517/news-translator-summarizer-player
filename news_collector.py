@@ -184,7 +184,6 @@ cog_key = os.getenv('COG_SERVICE_KEY')
 language_resource_key = os.getenv('LANGUAGE_RESOURCE_KEY')
 cog_region = os.getenv('COG_SERVICE_REGION')
 translator_endpoint = 'https://api.cognitive.microsofttranslator.com'
-#language_resource_endpoint = 'https://language-service-resource-prk.cognitiveservices.azure.com'
 language_resource_endpoint = os.getenv('LANGUAGE_RESOURCE_ENDPOINT')
 
 # Create client using endpoint and key
