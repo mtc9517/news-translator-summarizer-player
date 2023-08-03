@@ -15,6 +15,8 @@ Step 3 :
 Step 4 :
     % python news_collector.py
 
+[ The following step (Step 5) starts up a web server and one can browse to the website for viewing the summary (as well the full version) of the news for that day ]
+
 Step 5 :
     % streamlit run news_displayer.py
 
